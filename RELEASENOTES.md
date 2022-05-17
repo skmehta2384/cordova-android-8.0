@@ -48,7 +48,7 @@
 * [GH-539](https://github.com/apache/cordova-android/pull/539) Fix destination path fallback
 * [GH-544](https://github.com/apache/cordova-android/pull/544) Remove obsolete check for JellyBean
 * [GH-465](https://github.com/apache/cordova-android/pull/465) Removes Gradle property in-line command arguments for `gradle.properties`
-* [GH-523](https://github.com/apache/cordova-android/pull/523) Always put the Google repo above jcenter
+* [GH-523](https://github.com/apache/cordova-android/pull/523) Always put the Google repo above mavenCentral
 * [GH-486](https://github.com/apache/cordova-android/pull/486) Change deprecated "compile" to "implementation"
 * [GH-495](https://github.com/apache/cordova-android/pull/495) Incorrect default sdk version issue fix
 * [GH-493](https://github.com/apache/cordova-android/pull/493) Remove bundled dependencies
@@ -66,7 +66,7 @@
 * [GH-449](https://github.com/apache/cordova-android/pull/449) Increase old plugin compatibility
 * [GH-442](https://github.com/apache/cordova-android/pull/442) Fixes and cleanup for Java tests and CI
 * [GH-446](https://github.com/apache/cordova-android/pull/446) [CB-14101](https://issues.apache.org/jira/browse/CB-14101) Fix Java version check for Java >= 9
-* [CB-14127](https://issues.apache.org/jira/browse/CB-14127) Move google maven repo ahead of jcenter
+* [CB-14127](https://issues.apache.org/jira/browse/CB-14127) Move google maven repo ahead of mavenCentral
 * [CB-14038](https://issues.apache.org/jira/browse/CB-14038) Fix false positive detecting project type
 * [CB-14008](https://issues.apache.org/jira/browse/CB-14008) Updating Gradle Libraries to work with **Android** Studio 3.1.0
 * [CB-13975](https://issues.apache.org/jira/browse/CB-13975) Fix to fire pause event when cdvStartInBackground=true
@@ -254,7 +254,7 @@ Changes For Third-Party WebView Developers:
 * [CB-11481](https://issues.apache.org/jira/browse/CB-11481) android-library is deprecated use com.android.library instead
 
 ### 5.2.0 (Jun 29, 2016)
-* [CB-11383](https://issues.apache.org/jira/browse/CB-11383) Update to gradle for using `jcenter` and correct Application plugin
+* [CB-11383](https://issues.apache.org/jira/browse/CB-11383) Update to gradle for using `mavenCentral` and correct Application plugin
 * [CB-11365](https://issues.apache.org/jira/browse/CB-11365) fixed plugin rm issue with emit being `undefined`
 * [CB-11117](https://issues.apache.org/jira/browse/CB-11117) Use `FileUpdater` to optimize prepare for **android** platform
 * [CB-10096](https://issues.apache.org/jira/browse/CB-10096) Upgrade test project to `Gradle Plugin 2.1.0`
